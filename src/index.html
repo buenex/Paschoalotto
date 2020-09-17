@@ -1,13 +1,88 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+  <style>
+    .row{
+      display: inline-flex;
+      width: 100%;
+      text-align: center;
+    }
+    body{
+      margin:0px;
+    }
+
+    .div-top{
+      width: --width;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width:70%;
+      max-height:70%;      
+    }
+
+    ul {      
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: gray;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+
+    footer{
+      width: 100%;
+      text-align:center;
+      background-color: gray;
+      margin:0px;
+      color:white;
+    }
+    
+  </style>
   <meta charset="utf-8">
   <title>Paschoalotto</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
-  <app-root></app-root>
-</body>
+  <body>
+    <div class="row">
+      <div  style="width:25%; ">
+        <img href = "index.html" src="../assets/img/logo.png"/>
+      </div>  
+      <div style="width:50%;">
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#news">Novidades</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#about">Sobre</a></li>
+        </ul>
+      </div>      
+      <div style="width:25%;">
+      <ul>
+          <li style="float: right;"><a href="#login">Login</a></li>
+          <li style="float: right;"><a href="cadastro">Cadastro</a></li>          
+        </ul>
+      </div>   
+    </div>
+    <app-root></app-root>
+  </body>
+  <footer>
+    <h2>all rights reserved.</h2>
+  </footer>
 </html>
