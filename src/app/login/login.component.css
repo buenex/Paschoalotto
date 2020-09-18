@@ -1,0 +1,18 @@
+form{
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left:30%;
+  margin-right:30%;
+  text-align: center;
+  background-color: #5c89b7;
+  color: aliceblue;
+  font-size: large;
+  border-radius: 2em;
+}
+
+input{
+  border-radius: 5px;
+  width:50%;
+  height: 100%;
+  border-width: 1px;
+}
