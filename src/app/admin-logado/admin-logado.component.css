@@ -1,0 +1,55 @@
+th{
+    border: solid;
+    border-radius: 3px;
+    border-color: #3b5998;
+}
+
+table{
+    background-color: #5c89b7;
+    align-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    margin: auto;
+}
+
+.container{
+    color: aliceblue;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin :0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    text-align: left;
+}
+
+.input{
+    align-self: center;
+}
+
+.title{
+    width: 30%;
+}
+h3{
+    text-align: left;
+}
+
+input{
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+select{
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+label{
+    font-size: x-large;
+}

@@ -1,0 +1,21 @@
+img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.item{
+    width: 50%;
+    height: 40%;
+    border: solid;
+    border-radius: 3em;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container{
+    margin: 10%;
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}

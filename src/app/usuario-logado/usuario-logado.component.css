@@ -1,0 +1,25 @@
+th{
+    border: solid;
+    border-radius: 3px;
+    border-color: #3b5998;
+}
+
+table{
+    background-color: #5c89b7;
+    align-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    margin: auto;
+}
+
+.container{
+    color: aliceblue;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin :0;
+}
+
+h2{
+    text-align: center;
+}
