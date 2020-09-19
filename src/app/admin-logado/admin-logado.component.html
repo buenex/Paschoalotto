@@ -1,20 +1,28 @@
-<div class="container">
+<div class="container" *ngIf="this.user !== null">
     <div>
         <h2>
             Painel do administrador
         </h2>
     </div>
     <div>
-        <form sty>
+        <form>
+          <div class="row">
+            <div class="title">
+                <h3>Cliente :</h3>
+            </div>
+            <div class="input">
+                <select></select>
+            </div>
+          </div>
             <div class="row">
                 <div class="title">
                     <h3>Maximo de parcelas :</h3>
                 </div>
                 <div class="input">
                     <input type="number" name="maximo-parcelas">
-                </div>                
+                </div>
             </div>
-            
+
             <div class="row">
                 <div class="title">
                     <h3>Tipo de juros :</h3>
@@ -24,7 +32,7 @@
                         <option value="1">Simples</option>
                         <option value="2">Composto</option>
                     </select>
-                </div>                
+                </div>
             </div>
             <div class="row">
                 <div class="title">
@@ -32,13 +40,25 @@
                 </div>
                 <div class="input">
                     <input type="number" name="maximo-parcelas">
-                </div>                
+                </div>
             </div>
-        </form><br><br>
-        <div>
-            <label>Maximo de parcelas atual:</label> <Br>
-            <label>Tipo de imposto atual:</label> <Br>
-            <label>Comissão atual:</label> 
-        </div>
-    </div>    
+            <div class="row">
+              <div class="title">
+              </div>
+              <div class="input">
+                  <input type="button" name="alterar" value="alterar">
+              </div>
+          </div>
+        </form>
+    </div>
+</div>
+<div class="container" *ngIf="this.user === null">
+  <div>
+      <h2>
+          Painel do administrador
+      </h2>
+  </div>
+  <div>
+    <h1>Desculpe mas você não tem acesso a essa área. <a href="/login">Voltar para login</a></h1>
+  </div>
 </div>

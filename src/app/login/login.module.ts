@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
-import { AccountService } from './shared';
+import { AccountService, Account } from '../account';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    HttpClientModule
+    FormsModule
   ],
   providers: [
     AccountService
   ]
 })
-export class AccountModule { }
+export class LoginModule { }

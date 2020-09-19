@@ -1,0 +1,9 @@
+<div style="width:100%;">
+  <ul *ngIf="hasUserLogado()===false">
+    <li style="float: right;"><a href="/login">Login</a></li>
+    <li style="float: right;"><a href="/cadastro">Cadastro</a></li>
+  </ul>
+  <ul *ngIf="hasUserLogado()===true">
+    <li style="float: right;"><a  href="{{href}}">{{user.usuario}}</a></li>
+  </ul>
+</div>
